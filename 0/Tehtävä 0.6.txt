@@ -19,10 +19,10 @@ end note
 palvelin->selain: Status: 201 created
 
 note over selain
-selaille ladatussa 
+selaimelle ladatussa 
 JavaScriptissä on
 oletustapahtumakäsittelijän
-korvaava uusi käsittelijä,
+syrjäyttävä uusi käsittelijä,
 joka lisää uuden muistiinpano-
 olion selaimen puolella
 muistiinpanojen listaan ja
