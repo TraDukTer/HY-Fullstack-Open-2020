@@ -1,0 +1,32 @@
+title Tehtävä 0.6
+
+note over selain
+JavaScript selaimen puolella
+käsittelee paitsi napin 
+painalluksen, myös muistiin-
+panon ja ajan paketoimisen
+JSON-muotoon
+end note
+
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/spa
+
+note right of selain
+Content-Type: application/json;
+{content: "Miten tätä ajetaan", 
+date: "2020-06-24T21:32:17.526Z"}
+end note
+
+palvelin->selain: Status: 201 created
+
+note over selain
+selaille ladatussa 
+JavaScriptissä on
+oletustapahtumakäsittelijän
+korvaava uusi käsittelijä,
+joka lisää uuden muistiinpano-
+olion selaimen puolella
+muistiinpanojen listaan ja
+piirtää listan uudelleen 
+hakematta koko sivua uudelleen
+palvelimelta
+end note
